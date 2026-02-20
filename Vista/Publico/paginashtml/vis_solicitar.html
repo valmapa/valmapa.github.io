@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificación</title>
+    <link rel="stylesheet" href="../../publico/css/principal.css">
+</head>
+<body>
+    <div class="container">
+      <form method="post" action="../../../Controlador/con_consultardatoscopy.php">
+        <table>
+          <tbody>
+            <tr>
+              <th scope="col">SOLICITUD DE DATOS<br><br></th>
+            </tr>
+            <tr>
+              <td><label for="cedula">Cédula:</label></td>
+              <td><input type="text" id="cedula" name="cedula" required placeholder="Ingrese su cedula" title="Ingrese su cedula"></td>
+            </tr>
+            <tr>
+              <td><label for="clave">Contraseña:</label></td>
+              <td><input type="password" id="clave" name="clave" required placeholder="Ingrese su contraseña" title="Ingrese su contraseña"></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <br>
+                <button type="submit">Verificar</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+   <div>
+        <footer title="pie de página">
+            <p>&copy; 2024 CENSO COMUNITARIO VALMAPA. TODOS LOS DERECHOS RESERVADOS.</p>
+            <a href="#título">VOLVER ARRIBA</a>
+        </footer>
+    </div>
+</body>
+</html>

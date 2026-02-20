@@ -1,0 +1,211 @@
+ body { 
+            background-color: #1875b8;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 10px;
+            padding: 10px;
+        }
+            /* Preferencia para usar Agency FB si está instalada localmente */
+        @font-face {
+        font-family: 'Agency FB', 'Times New Roman', 'Dejavu Sans', Times, serif;
+        src: local('Agency FB'), local('AgencyFB');
+        font-weight: bold;
+        font-style: bold;
+        font-display: swap;
+       
+        }
+        title {
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+ 
+        .container {
+            max-width: 1200px;
+            margin: 100px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+           border-top: 5px #be8b16;
+           border-radius: 5px;
+            border-top-style: outset;
+            text-align: center;
+            padding: 40px 0;
+            /* Usar Agency FB si está disponible, con alternativas */
+            font-family: 'Agency FB', 'Times New Roman', 'Dejavu Sans', Times, serif;
+            border-color: #be8b16;
+           text-emphasis: #be8b16;
+        }
+
+        .logo {
+            max-width: 500px;
+            margin-bottom: 50px;
+        }
+
+        .main-content {
+
+
+            width: 100%;
+            padding: 20px 0;
+            text-orientation: sideways-right;
+            text-align: center;
+            background-color: #1885b8;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Agency FB', 'Times New Roman', 'Dejavu Sans', Times, serif;
+            border-color: #be8b16;
+            border-top: 7px solid #be8b16;
+            border-bottom: 7px solid #be8b16;
+         
+
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin-top: 50px;
+        }
+
+        .nav-button {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 15px 30px;
+            text-decoration: none;
+            -webkit-text-size-adjust: 100%;
+            text-size-adjust: 100%;
+            text-shadow: #0660b4;
+    
+            font-size: 18px;
+            border-radius: 10px;
+            border: 2px solid #000000;
+            font-weight: bold;
+            transition: all  0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: #be8b16;
+            color: #ffffff;
+           
+        }
+
+        footer {
+            text-align: center;
+            text-decoration: underline;
+            padding: 20px;
+            border-color: #be8b16;
+            border-top: 3px solid #be8b16;
+            border-radius: 2px;
+            border-style: dotted;
+            margin-top: 50px;
+            font-family: 'Agency FB', 'Times New Roman', 'Dejavu Sans', Times, serif;
+
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1885b8;
+            border-radius: 8px;
+            border-color: #be8b16;
+            border: 1px solid #be8b16;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-decoration: transparent #be8b16; 
+           
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        image {
+            display: block;
+        
+            max-width: 500px;
+            height: 500px;
+            width: 500px;
+        
+            
+            
+        }
+
+
+        ul {
+            background-color: #1885b8;
+            border: 3px solid #be8b16;
+            border-style: hidden;
+            border-radius: 10px;
+            list-style: armenian;
+            list-style-type: armenian;
+            list-style-type: upper-roman;
+            list-style-position: inside;
+            padding: 0;
+            align-items: center;
+            text-align: center;
+            text-rendering: optimizeSpeed;
+         
+
+        
+        }
+
+        link {
+            color: #22f172;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+       
+
+
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+
+
+        }
+
+        
+           
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

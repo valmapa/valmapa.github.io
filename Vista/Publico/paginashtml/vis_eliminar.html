@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censo Comunitario VALMAPA</title>
+    <link rel="stylesheet" href="../css/principal.css">
+</head>
+<body>
+        <div>
+            <header>
+              <h1>ELIMINACIÓN DE USUARIO</h1>
+            </header>
+        </div>
+        <main>
+            <table> <caption>Eliminación de Usuario</caption>
+            <tbody>Se requiere autorización para eliminar un usuario.Por Favor ingrese su nombre de usuario y contraseña para continuar.</tbody>
+            </table>
+            <div class="container">
+                <form action="../../../Controlador/con_borraruser.php" method="post">
+                    <div>
+                        <label for="alias">Usuario</label>
+                        <input type="text" id="alias" name="alias" required>
+                        <br><br>
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" required>
+                        <br><br>
+                        <label for="clave">Clave</label>
+                        <input type="password" id="clave" name="clave" required>
+                        <br><br>
+                        <label for="cedula">Cédula</label>
+                        <input type="text" id="cedula" name="cedula" required>
+                        <br><br>
+                        <button type="submit">Eliminar Usuario</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <div>
+        <footer title="pie de página">
+            <p>&copy; 2024 CENSO COMUNITARIO VALMAPA. TODOS LOS DERECHOS RESERVADOS.</p>
+            <a href="#título">VOLVER ARRIBA</a>
+        </footer>
+    </div>
+</body>
+</html>
+
+
+
