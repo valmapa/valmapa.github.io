@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="../css/principal.css">
+</head>
+
+<body>
+    <div class="container">
+        <header title="cavecera" id="título">
+            <h1>Vista Al Mar Arrecife Parte Alta</h1>
+            <img src="../imagenes/logoagua.png" alt="Logo VALMAPA" class="logo"
+            width="400" height="350">
+            <h1>Censo Comunal VALMAPA</h1>
+            <a href="#principal" class="skip-link">ir al contenido principal</a>
+        </header>
+        <main title="contenido principal" id="principal">
+            <h1>Registro</h1>
+            <form action="../../Controlador/con_nuevouser.php" method="post">
+                <label for="alias"> <strong>Usuario:</strong></label>
+                <input type="text" id="alias" name="alias" ><br><br>
+                <label for="correo"> <strong>Correo Electrónico:</strong></label>
+                <input type="email" id="correo" name="correo" ><br><br>
+                <label for="clave"> <strong>Contraseña:</strong></label>
+                <input type="password" id="clave" name="clave" ><br><br>
+                <label for="cedula"> <strong>Cédula:</strong></label>
+                <input type="text" id="cedula" name="cedula" ><br><br>
+                <button class="nav-button" type="submit">Registrarse</button>
+            </form>
+            <div class="button-container">
+                <a href="index.html" class="nav-button">Regreso a Inicio</a>
+            </div>
+        </main>
+        <div>
+        <footer title="pie de página">
+            <p>&copy; 2024 CENSO COMUNITARIO VALMAPA. TODOS LOS DERECHOS RESERVADOS.</p>
+            <a href="#título">VOLVER ARRIBA</a>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

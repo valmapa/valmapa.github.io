@@ -1,0 +1,99 @@
+ body { 
+            background-color: #ffffff;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #000000;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 10px;
+            padding: 10px;
+        }
+        title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 100px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 3px solid #000000;
+        }
+
+        .logo {
+            max-width: 500px;
+            margin-bottom: 50px;
+        }
+
+        .main-content {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin-top: 50px;
+        }
+
+        .nav-button {
+            background-color: #ffffff;
+            color: #000000;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #000000;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .nav-button:hover {
+            background-color: #b60f0f;
+            color: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 3px solid #000000;
+            margin-top: 50px;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        image {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 100px
+        }
+
+        @media (max-width: 768px) {
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        
